@@ -5,14 +5,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            display: flex;
+            width: 100%;
+            height: 100vh;
+        }
+
+        h1 {
+            background-color: rgb(161, 161, 161);
+            margin-right: 10px;
+            width: 50%;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        div {
+            background-color: rgb(161, 161, 161);
+            width: 100%;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            font-weight: bold;
+        }
+    </style>
 </head>
 
 <body>
     <h1>My name is:</h1>
-    <p>NDIZIHIWE</p>
-    <P>Gakiza</P>
-    <p>Divin</p>
-    <p>Gay</p>
+    <div>
+        <p>NDIZIHIWE</p>
+        <P>Gakiza</P>
+        <p>Divin</p>
+        <p>Gay</p>
+    </div>
+    <script>
+        document.title = "My Name";
+    </script>
 </body>
 
 </html>

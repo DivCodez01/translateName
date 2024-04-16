@@ -37,19 +37,27 @@
             justify-content: space-around;
             font-weight: bold;
         }
+
+        p {
+            background-color: green;
+            padding: 10px;
+        }
     </style>
 </head>
 
 <body>
     <h1>My name is:</h1>
+    <p class="inside-paragraph"></p>
     <div>
-        <p>NDIZIHIWE</p>
-        <P>Gakiza</P>
-        <p>Divin</p>
-        <p>Gay</p>
+        <p id="parag1">NDIZIHIWE</p>
+        <P id="parag2">Gakiza</P>
+        <p id="parag3">Divin</p>
+        <p id="parag4">Gay</p>
     </div>
     <script>
         document.title = "My Name";
+        const insParagraph = document.querySelector("inside-paragraph");
+        const parag1 = document.getElementById("parag1")
     </script>
 </body>
 

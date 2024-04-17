@@ -31,7 +31,11 @@ button.addEventListener("click", function () {
         parag2.style.color = "black";
         parag3.style.color = "black";
         parag4.style.color = "black";
-        insParagraph.style.backgroundColor = "grey"
+        parag1.style.border = "5px solid black";
+        parag2.style.border = "5px solid black";
+        parag3.style.border = "5px solid black";
+        parag4.style.border = "5px solid black";
+        insParagraph.style.backgroundColor = "grey";
     } else if (button.innerHTML == "Grey") {
         button.innerHTML = "Red";
         parag1.style.backgroundColor = "red";
@@ -45,7 +49,7 @@ button.addEventListener("click", function () {
         parag2.style.backgroundColor = "white";
         parag3.style.backgroundColor = "white";
         parag4.style.backgroundColor = "white";
-        insParagraph.style.backgroundColor = "white"
+        insParagraph.style.backgroundColor = "black"
     } else if (button.innerHTML == "White") {
         button.innerHTML = "Pink";
         parag1.style.backgroundColor = "pink";
@@ -70,7 +74,11 @@ button.addEventListener("click", function () {
         parag2.style.color = "white";
         parag3.style.color = "white";
         parag4.style.color = "white";
-        insParagraph.style.backgroundColor = "black"
+        parag1.style.border = "5px solid white";
+        parag2.style.border = "5px solid white";
+        parag3.style.border = "5px solid white";
+        parag4.style.border = "5px solid white";
+        insParagraph.style.backgroundColor = "black";
     } else if (button.innerHTML == "Black") {
         button.innerHTML = "Beige";
         parag1.style.backgroundColor = "beige";
@@ -81,7 +89,11 @@ button.addEventListener("click", function () {
         parag2.style.color = "black";
         parag3.style.color = "black";
         parag4.style.color = "black";
-        insParagraph.style.backgroundColor = "beige"
+        parag1.style.border = "5px solid black";
+        parag2.style.border = "5px solid black";
+        parag3.style.border = "5px solid black";
+        parag4.style.border = "5px solid black";
+        insParagraph.style.backgroundColor = "black"
     } else if (button.innerHTML == "Beige") {
         button.innerHTML = "Navy";
         parag1.style.backgroundColor = "navy";
@@ -92,6 +104,10 @@ button.addEventListener("click", function () {
         parag2.style.color = "white";
         parag3.style.color = "white";
         parag4.style.color = "white";
+        parag1.style.border = "5px solid white";
+        parag2.style.border = "5px solid white";
+        parag3.style.border = "5px solid white";
+        parag4.style.border = "5px solid white";
         insParagraph.style.backgroundColor = "navy"
     } else if (button.innerHTML == "Navy") {
         button.innerHTML = "Maroon";
@@ -99,10 +115,10 @@ button.addEventListener("click", function () {
         parag2.style.backgroundColor = "maroon";
         parag3.style.backgroundColor = "maroon";
         parag4.style.backgroundColor = "maroon";
-        parag1.style.color = "black";
-        parag2.style.color = "black";
-        parag3.style.color = "black";
-        parag4.style.color = "black";
+        parag1.style.color = "white";
+        parag2.style.color = "white";
+        parag3.style.color = "white";
+        parag4.style.color = "white";
         insParagraph.style.backgroundColor = "maroon"
     } else if (button.innerHTML == "Maroon") {
         button.innerHTML = "Purple";
@@ -117,6 +133,14 @@ button.addEventListener("click", function () {
         parag2.style.backgroundColor = "orange";
         parag3.style.backgroundColor = "orange";
         parag4.style.backgroundColor = "orange";
+        parag1.style.color = "black";
+        parag2.style.color = "black";
+        parag3.style.color = "black";
+        parag4.style.color = "black";
+        parag1.style.border = "5px solid black";
+        parag2.style.border = "5px solid black";
+        parag3.style.border = "5px solid black";
+        parag4.style.border = "5px solid black";
         insParagraph.style.backgroundColor = "orange"
     } else if (button.innerHTML == "Orange") {
         button.innerHTML = "Aqua";
@@ -135,6 +159,10 @@ button.addEventListener("click", function () {
         parag2.style.color = "white";
         parag3.style.color = "white";
         parag4.style.color = "white";
+        parag1.style.border = "5px solid white";
+        parag2.style.border = "5px solid white";
+        parag3.style.border = "5px solid white";
+        parag4.style.border = "5px solid white";
         insParagraph.style.backgroundColor = "blue"
     }
 })

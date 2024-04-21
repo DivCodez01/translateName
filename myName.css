@@ -103,3 +103,18 @@ p {
     text-align: center;
     color: white;
 }
+
+.meaning-container:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+.name-meaning:hover {
+    color: black;
+}
+
+.meaning-container:active {
+    opacity: 0.2;
+    transform: translateY(-5px);
+    pointer-events: none;
+}

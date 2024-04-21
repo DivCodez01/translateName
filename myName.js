@@ -8,6 +8,7 @@ const button = document.querySelector("button");
 const nameMeaningBtn = document.querySelector(".name-meaning-btn");
 const viewContainerEl = document.querySelector(".view-container-el");
 const paragContainer = document.querySelector(".parag-container");
+const backBtn = document.querySelector(".back-btn");
 
 button.addEventListener("click", function () {
     if (button.innerHTML == "Blue") {
@@ -171,7 +172,12 @@ button.addEventListener("click", function () {
 })
 
 nameMeaningBtn.addEventListener("click", function () {
-    // viewContainerEl.style.display = "grid"
-    paragContainer.style.display = "none";
-    viewContainerEl.style.display = "flex";
+    // // viewContainerEl.style.display = "grid"
+    // paragContainer.style.display = "none";
+    // viewContainerEl.style.display = "flex";
+})
+
+backBtn.addEventListener("click", function () {
+    // paragContainer.style.display = "flex";
+    // viewContainerEl.style.display = "none";
 })

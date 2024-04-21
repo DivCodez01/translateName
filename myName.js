@@ -9,10 +9,9 @@ const nameMeaningBtn = document.querySelector(".name-meaning-btn");
 const viewContainerEl = document.querySelector(".view-container-el");
 const paragContainer = document.querySelector(".parag-container");
 const backBtn = document.querySelector(".back-btn");
+const fstHeaderEl = document.querySelector(".fstHeader-el");
 const label = document.querySelector("label");
-const fstheaderEl = document.querySelector(".fstheader-el");
 const h2 = document.querySelector("h2");
-const container = document.querySelector(".container");
 
 button.addEventListener("click", function () {
     if (button.innerHTML == "Blue") {
@@ -177,23 +176,22 @@ button.addEventListener("click", function () {
 
 nameMeaningBtn.addEventListener("click", function () {
     // // viewContainerEl.style.display = "grid"
-    // paragContainer.style.display = "none";
-    // viewContainerEl.style.display = "flex";
-
-
-    // paragContainer.className += " paragBackground";
-    // viewContainerEl.className = " viewbackground";
-    // fstheaderEl.style.visibility = "hidden";
-    // h2.style.visibility = "hidden";
-    // label.style.visibility = "hidden";
-    // button.style.visibility = "hidden";
-    // container.innerHTML = "<h1 class='changeBck'>This's my full name and their meanings</h1>";
-
-    container.innerHTML = "<h1 class='changeBck'>This's my full name and their meanings</h1>";
+    paragContainer.style.display = "none";
+    viewContainerEl.style.display = "flex";
+    fstHeaderEl.innerHTML = "This's my full name and their meanings";
+    fstHeaderEl.className += " changeBck"
+    h2.style.display = "none";
+    label.style.display = "none";
+    button.style.display = "none";
 })
 
 backBtn.addEventListener("click", function () {
-    // paragContainer.style.display = "flex";
-    // viewContainerEl.style.display = "none";
-    viewContainerEl.className = " viewbackground"
+    paragContainer.style.display = "flex";
+    viewContainerEl.style.display = "none";
+
+    fstHeaderEl.innerHTML = "My name is:";
+    fstHeaderEl.className += " changeBck"
+    h2.style.display = "grid";
+    label.style.display = "grid";
+    button.style.display = "grid";
 })

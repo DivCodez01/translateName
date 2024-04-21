@@ -5,6 +5,9 @@ const parag2 = document.querySelector(".parag2");
 const parag3 = document.querySelector(".parag3");
 const parag4 = document.querySelector(".parag4");
 const button = document.querySelector("button");
+const nameMeaningBtn = document.querySelector(".name-meaning-btn");
+const viewContainerEl = document.querySelector(".view-container-el");
+const paragContainer = document.querySelector(".parag-container");
 
 button.addEventListener("click", function () {
     if (button.innerHTML == "Blue") {
@@ -165,4 +168,10 @@ button.addEventListener("click", function () {
         parag4.style.border = "5px solid white";
         insParagraph.style.backgroundColor = "blue"
     }
+})
+
+nameMeaningBtn.addEventListener("click", function () {
+    // viewContainerEl.style.display = "grid"
+    paragContainer.style.display = "none";
+    viewContainerEl.style.display = "flex";
 })

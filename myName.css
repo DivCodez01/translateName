@@ -70,7 +70,6 @@ h2 {
     justify-content: space-around;
     font-weight: bold;
     animation: animateDv 3s linear 1 forwards;
-    /* display: none; */
 }
 
 .parag {
@@ -95,24 +94,15 @@ h2 {
     align-items: center;
 }
 
-.meaning-container {
+.name-meaning-btn {
     border: 3px dashed white;
     background-color: rgb(255, 255, 255, 0.1);
-}
-
-.name-meaning-btn {
     background-color: transparent;
     text-align: center;
     color: white;
     font-size: 25px;
-    border: none;
     outline: none;
     width: 100%;
-}
-
-.meaning-container:hover {
-    background-color: white;
-    cursor: pointer;
 }
 
 .name-meaning-btn:hover {
@@ -128,8 +118,12 @@ h2 {
 .view-container-el {
     background-color: rgb(36, 36, 36);
     width: 100%;
-    display: none;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    scroll-snap-type: proximity;
+    overflow: scroll;
+    display: none;
 }
 
 .h1-el {

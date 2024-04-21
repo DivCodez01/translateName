@@ -70,6 +70,7 @@ h2 {
     justify-content: space-around;
     font-weight: bold;
     animation: animateDv 3s linear 1 forwards;
+    /* visibility: hidden; */
 }
 
 p {
@@ -96,12 +97,17 @@ p {
 
 .meaning-container {
     border: 3px dashed white;
+    background-color: rgb(255, 255, 255, 0.1);
 }
 
-.name-meaning {
-    background-color: rgb(255, 255, 255, 0.1);
+.name-meaning-btn {
+    background-color: transparent;
     text-align: center;
     color: white;
+    font-size: 25px;
+    border: none;
+    outline: none;
+    width: 100%;
 }
 
 .meaning-container:hover {
@@ -109,12 +115,14 @@ p {
     cursor: pointer;
 }
 
-.name-meaning:hover {
+.name-meaning-btn:hover {
     color: black;
 }
 
 .meaning-container:active {
-    opacity: 0.2;
+    opacity: 0.4;
     transform: translateY(-5px);
     pointer-events: none;
 }
+
+.view

@@ -70,10 +70,10 @@ h2 {
     justify-content: space-around;
     font-weight: bold;
     animation: animateDv 3s linear 1 forwards;
-    /* visibility: hidden; */
+    display: none;
 }
 
-p {
+.parag {
     background-color: blue;
     padding: 10px;
     color: white;
@@ -125,4 +125,17 @@ p {
     pointer-events: none;
 }
 
-.view
+.view-container-el {
+    background-color: rgb(36, 36, 36);
+    width: 100%;
+}
+
+.h1-el {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    transform: skew(20deg);
+}

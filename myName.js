@@ -9,6 +9,10 @@ const nameMeaningBtn = document.querySelector(".name-meaning-btn");
 const viewContainerEl = document.querySelector(".view-container-el");
 const paragContainer = document.querySelector(".parag-container");
 const backBtn = document.querySelector(".back-btn");
+const label = document.querySelector("label");
+const fstheaderEl = document.querySelector(".fstheader-el");
+const h2 = document.querySelector("h2");
+const container = document.querySelector(".container");
 
 button.addEventListener("click", function () {
     if (button.innerHTML == "Blue") {
@@ -175,9 +179,19 @@ nameMeaningBtn.addEventListener("click", function () {
     // // viewContainerEl.style.display = "grid"
     // paragContainer.style.display = "none";
     // viewContainerEl.style.display = "flex";
+
+
+    paragContainer.className += " paragBackground";
+    viewContainerEl.className = " viewbackground";
+    fstheaderEl.style.visibility = "hidden";
+    h2.style.visibility = "hidden";
+    label.style.visibility = "hidden";
+    button.style.visibility = "hidden";
+    container.innerHTML = "<h1 class='changeBck'>This's my full name and their meanings</h1>";
 })
 
 backBtn.addEventListener("click", function () {
     // paragContainer.style.display = "flex";
     // viewContainerEl.style.display = "none";
+    viewContainerEl.className = " viewbackground"
 })

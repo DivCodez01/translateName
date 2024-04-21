@@ -139,3 +139,12 @@ h2 {
     border-radius: 10px;
     transform: skew(20deg);
 }
+
+.parag-name {
+    color: white;
+    margin: 15px 15px 15px 15px;
+}
+
+u {
+    font-size: 20px;
+}

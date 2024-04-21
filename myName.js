@@ -181,12 +181,14 @@ nameMeaningBtn.addEventListener("click", function () {
     // viewContainerEl.style.display = "flex";
 
 
-    paragContainer.className += " paragBackground";
-    viewContainerEl.className = " viewbackground";
-    fstheaderEl.style.visibility = "hidden";
-    h2.style.visibility = "hidden";
-    label.style.visibility = "hidden";
-    button.style.visibility = "hidden";
+    // paragContainer.className += " paragBackground";
+    // viewContainerEl.className = " viewbackground";
+    // fstheaderEl.style.visibility = "hidden";
+    // h2.style.visibility = "hidden";
+    // label.style.visibility = "hidden";
+    // button.style.visibility = "hidden";
+    // container.innerHTML = "<h1 class='changeBck'>This's my full name and their meanings</h1>";
+
     container.innerHTML = "<h1 class='changeBck'>This's my full name and their meanings</h1>";
 })
 

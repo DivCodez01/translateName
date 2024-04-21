@@ -93,3 +93,13 @@ p {
     display: grid;
     align-items: center;
 }
+
+.meaning-container {
+    border: 3px dashed white;
+}
+
+.name-meaning {
+    background-color: rgb(255, 255, 255, 0.1);
+    text-align: center;
+    color: white;
+}
